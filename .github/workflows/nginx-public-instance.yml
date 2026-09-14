@@ -20,7 +20,7 @@ jobs:
     #     <환경 변수들>
     #   run:
     #     <리눅스 명령들>
-    step:
+    steps:
     - name: 소스코드 전송
       uses: actions/checkout@
       
