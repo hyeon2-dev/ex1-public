@@ -22,7 +22,7 @@ jobs:
     #     <리눅스 명령들>
     steps:
     - name: 소스코드 전송
-      uses: actions/checkout@
+      uses: actions/checkout@v4
       
     - name: Public EC2 Instance에 파일 전송
       uses: appleboy/scp-action@master
